@@ -1,0 +1,2 @@
+# A Java web vulnerable to insecure deserialization
+I run it on Eclipse IDE for Java EE Developers. Tomcat 7.0, Java Servlet + JSP + Apache Commons Collections 3.1 (require for my exploitation, check my PoC in demo video). To create payload, use ysoserial. To fix the vulnerability, I add a custom filter before the deserialization happening, checkout this https://medium.com/tech-learnings/serialization-filtering-deserialization-vulnerability-protection-in-java-349c37f6f416
